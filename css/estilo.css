@@ -1,9 +1,60 @@
 body {
-    color: cadetblue;
-    background: -webkit-linear-gradient(right, orange, blue);
+    background: -webkit-linear-gradient(left, orange, blue);
+}
+
+#container {
+    background: url('Cajamarca.jpeg') !important;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid #165480;
+    background-color: greenyellow;
 }
 
 h1 {
-    font-size: 50px;
-    color: white;
+    font-size: 200%;
+    color: white
+}
+
+h2 {
+    font-size: 130%;
+}
+
+div {
+    font-size: 100%;
+    margin-bottom: 4px;
+    margin-left: 6px;
+}
+
+p,
+ul,
+ol,
+dl,
+address {
+    font-size: 110%;
+}
+
+p,
+li,
+dd,
+dt,
+address {
+    line-height: 150%;
+}
+
+.row {
+    padding: -15px;
+}
+
+.columna {
+    width: 30.33333%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    float: left;
 }

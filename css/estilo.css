@@ -3,4 +3,7 @@ body {
     background: -webkit-linear-gradient(right, orange, blue);
 }
 
-;
+h1 {
+    font-size: 50px;
+    color: white;
+}

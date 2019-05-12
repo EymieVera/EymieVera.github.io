@@ -1,7 +1,3 @@
-body {
-    background: -webkit-linear-gradient(left, orange, blue);
-}
-
 #container {
     background-image: url('../Imágenes/Cajamarca.jpeg') !important;
     background-position: center;

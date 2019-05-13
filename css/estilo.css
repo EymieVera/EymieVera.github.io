@@ -1,5 +1,5 @@
 body {
-    background: -webkit-linear-gradient(left, green, blue);
+    background: -webkit-linear-gradient(left, orange, blue);
 }
 
 #container {
@@ -27,7 +27,6 @@ header {
 
 h1 {
     font-size: 200%;
-    color: white
 }
 
 h2 {

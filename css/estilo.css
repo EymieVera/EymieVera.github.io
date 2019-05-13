@@ -13,6 +13,10 @@ body {
     overflow: hidden;
 }
 
+.opaco {
+    background-color: rgba(219, 240, 186, 0.6);
+}
+
 #footer {
     width: 100%;
     height: 100px;

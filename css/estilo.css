@@ -3,13 +3,11 @@ body {
 }
 
 #container {
-    background-image: url('../Imágenes/Cajamarca.jpeg') !important;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100%;
+    background-image: url('../Imágenes/Cajamarca.jpeg');
+    background-size: 100% 565px;
+    height: 565px;
     width: 100%;
-    background-repeat: no-repeat;
+    float: left;
     overflow: hidden;
 }
 
@@ -87,4 +85,270 @@ address {
     position: relative;
     float: left;
     background-color: rgba(219, 240, 186, 0.6);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 1400px;
+    width: 100%;
+}
+
+#contenedor-1 {
+    width: 100%;
+    height: 780px;
+    background-image: url(../imagenes/portada.jpg);
+    background-size: 100% 780px;
+    overflow: hidden
+}
+
+header {
+    height: 75px;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    background-color: rgb(74, 74, 74, 0.9);
+    display: flex;
+    z-index: 1;
+}
+
+header h3 {
+    width: 27%;
+    color: #f7d00e;
+    float: left;
+    font: 60px "Edwardian Script ITC";
+    margin-top: 0px;
+    margin-left: 3%
+}
+
+#menu {
+    height: 50px;
+    width: 65%;
+    margin-top: 4px;
+    overflow: hidden;
+    float: left;
+    border: 4px groove #4286f4;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: #4286f4;
+}
+
+#menu ul li {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+#menu ul li a {
+    color: #fff;
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    font: 30px "Colonna MT";
+    text-align: center;
+}
+
+#menu ul li a:hover,
+#menu ul li a:active,
+#menu ul li a:focus {
+    border-radius: 10px;
+    color: #000;
+    background-color: orange;
+}
+
+
+/* ESTILOS PARA EL CONTENIDO */
+
+body #Iglesia {
+    width: 86%;
+    height: 730px;
+    margin-left: 6%;
+    position: relative;
+    overflow: hidden;
+}
+
+#contenido-portada {
+    width: 100%;
+    height: 330px;
+    margin-top: 74px;
+    overflow: hidden;
+    background-color: rgb(9, 162, 244, 0.4);
+    position: relative;
+}
+
+#article-portada {
+    width: 350px;
+    height: 300px;
+    float: left;
+    background-color: rgb(255, 255, 255, 0.7);
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+#article-portada h2 {
+    margin-top: 15px;
+    text-align: center;
+    font: 40px "Bernard MT Condensed";
+    color: darkred;
+}
+
+#article-portada p {
+    margin-top: 15px;
+    text-align: center;
+    font: 25px "Bernard MT Condensed";
+}
+
+video {
+    width: 650px;
+    height: 302px;
+    border: 6px outset;
+    margin-right: 10px;
+    float: right;
+    margin-top: 10px;
+}
+
+
+/*contiene todo todo las imagens de la iglesia y su descripcion*/
+
+#section-article {
+    width: 100%;
+    height: 320px;
+    background-color: rgb(9, 162, 244, 0.4);
+}
+
+#section-article .article-contenido {
+    width: 19%;
+    height: 310px;
+    float: left;
+    margin-left: 8px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+
+.article-contenido img {
+    width: 95%;
+    height: auto;
+    margin-left: 2.5%;
+    margin-top: 10px;
+}
+
+.article-contenido h3 {
+    margin-left: 15px;
+    margin-top: 5px;
+    border-left: 5px solid orange;
+    font: 20px "Bodoni MT Black";
+}
+
+.article-contenido p {
+    margin: 10px;
+    font: 15px "Arial Narrow";
+    text-align: center;
+}
+
+body fooder {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    float: left;
+    background-color: skyblue;
+}
+
+
+/*contenido con respecto al lugar*/
+
+body #contenedor-2 {
+    height: 565px;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    background-image: url(../imagenes/cajamarca.png);
+    background-size: 100% 565px;
+}
+
+#contenedor-2 aside {
+    width: 20%;
+    height: 530px;
+    margin-top: 15px;
+    float: left;
+    background-color: rgb(255, 255, 255, 1);
+    margin-left: 1%;
+    overflow: hidden;
+}
+
+#contenedor-2 aside h2 {
+    text-align: center;
+    color: blue;
+}
+
+#contenedor-2 aside p {
+    margin: 10px;
+    font: 15px "Arial Narrow";
+    text-align: justify;
+}
+
+#contenedor-2 aside img {
+    width: 90%;
+    height: 380px;
+    text-align: center;
+    margin-left: 3%;
+    border: 5px outset #8b8e86;
+}
+
+
+/*contiene todo los 6 articulos*/
+
+#contenedor-2 section {
+    width: 75%;
+    height: 530px;
+    margin-top: 15px;
+    float: left;
+    margin-left: 2%;
+    overflow: hidden;
+}
+
+span {
+    width: 90%;
+    height: 555px;
+    margin-top: 5px;
+    float: left;
+    margin-left: 4%;
+    overflow: hidden;
+    background-color: rgb(114, 252, 22, 0.5);
+}
+
+#contenedor-2 section article {
+    width: 32%;
+    height: 253px;
+    float: left;
+    margin: 5px;
+    border-radius: 20px;
+    border: 1px solid red;
+    background-color: rgb(255, 255, 255, 1);
+}
+
+#contenedor-2 section article h3 {
+    margin-left: 25px;
+    color: dimgray;
+    float: left;
+}
+
+#contenedor-2 section article img {
+    width: 95%;
+    height: 150px;
+    margin-top: 5px;
+    margin-left: 1%;
+    float: left;
+    border: 5px outset #8b8e86;
+}
+
+#contenedor-2 section article p {
+    margin: 5px;
+    float: left;
+    font: 15px "Arial Narrow";
+    text-align: center;
 }

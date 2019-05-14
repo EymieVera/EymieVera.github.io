@@ -61,6 +61,20 @@ body {
     background: -webkit-linear-gradient(left, orange, blue);
 }
 
+.subtítulo {
+    height: 50px;
+    width: 99%;
+    background-color: rgba(200, 252, 57, 0.5);
+    display: flex;
+    z-index: 1;
+}
+
+.subtítulo h1 {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 45%
+}
+
 #container {
     background-image: url('../Imágenes/Cajamarca.jpeg');
     background-position: center;
@@ -69,13 +83,10 @@ body {
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
-    overflow: hidden;
 }
 
 .opaco {
-    background-color: rgba(219, 240, 186, 0.6);
-    height: 80%;
-    width: 98%;
+    background-color: rgba(202, 154, 198, 0.7);
 }
 
 #footer {
@@ -95,6 +106,15 @@ h1 {
 }
 
 h2 {
+    font-size: 150%;
+}
+
+h3 {
+    font-size: 140%;
+}
+
+li,
+p {
     font-size: 130%;
 }
 
@@ -102,22 +122,6 @@ div {
     font-size: 100%;
     margin-bottom: 4px;
     margin-left: 6px;
-}
-
-p,
-ul,
-ol,
-dl,
-address {
-    font-size: 110%;
-}
-
-p,
-li,
-dd,
-dt,
-address {
-    line-height: 150%;
 }
 
 .row {
@@ -131,7 +135,7 @@ address {
     padding-left: 20px;
     position: relative;
     float: left;
-    background-color: rgba(219, 240, 186, 0.6);
+    background-color: rgba(219, 240, 186, 0.7);
 }
 
 .rowsitios {
@@ -145,7 +149,7 @@ address {
     padding-left: 20px;
     position: relative;
     float: left;
-    background-color: rgba(219, 240, 186, 0.6);
+    background-color: rgba(219, 240, 186, 0.7);
 }
 
 body espacio {

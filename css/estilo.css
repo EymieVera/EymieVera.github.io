@@ -18,18 +18,15 @@ header h3 {
     color: #f7d00e;
     float: left;
     font: 60px "Edwardian Script ITC";
-    margin-top: 0px;
     margin-left: 3%
 }
 
 #menu {
     height: 50px;
     width: 65%;
-    margin-top: 4px;
+    margin-top: 15px;
     overflow: hidden;
     float: left;
-    border: 4px groove #4286f4;
-    overflow: hidden;
     border-radius: 15px;
     background-color: #4286f4;
 }
@@ -57,24 +54,6 @@ header h3 {
     background-color: orange;
 }
 
-body {
-    background: -webkit-linear-gradient(left, orange, blue);
-}
-
-.subtítulo {
-    height: 50px;
-    width: 99%;
-    background-color: rgba(200, 252, 57, 0.5);
-    display: flex;
-    z-index: 1;
-}
-
-.subtítulo h1 {
-    font-size: 40px;
-    margin-top: 0px;
-    margin-left: 45%
-}
-
 #container {
     background-image: url('../Imágenes/Cajamarca.jpeg');
     background-position: center;
@@ -85,10 +64,6 @@ body {
     background-repeat: no-repeat;
 }
 
-.opaco {
-    background-color: rgba(202, 154, 198, 0.7);
-}
-
 #footer {
     width: 100%;
     height: 100px;
@@ -96,9 +71,11 @@ body {
     bottom: 0;
 }
 
-header {
-    width: 100%;
-    position: fixed;
+.imagen:hover {
+    -webkit-transform: scale(0.90);
+    transform: scale(0.90);
+    overflow: hidden;
+    border-radius: 50%;
 }
 
 h1 {
@@ -125,6 +102,10 @@ div {
 }
 
 .row {
+    padding: -15px;
+}
+
+.contenedor prueba {
     padding: -15px;
 }
 

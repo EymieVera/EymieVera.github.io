@@ -65,7 +65,7 @@ body {
     background-image: url('../Imágenes/Cajamarca.jpeg');
     background-position: center;
     background-attachment: fixed;
-    background-size: 95%;
+    background-size: 100%;
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -127,8 +127,8 @@ address {
 .columna {
     width: 30.33333%;
     min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 10px;
+    padding-left: 20px;
     position: relative;
     float: left;
     background-color: rgba(219, 240, 186, 0.6);
@@ -146,13 +146,6 @@ address {
     position: relative;
     float: left;
     background-color: rgba(219, 240, 186, 0.6);
-}
-
-#contenedor-1 {
-    width: 100%;
-    height: 780px;
-    background-size: 100% 780px;
-    overflow: hidden
 }
 
 body espacio {

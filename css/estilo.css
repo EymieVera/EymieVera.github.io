@@ -54,6 +54,56 @@ header h3 {
     background-color: orange;
 }
 
+#contenido-portada {
+    width: 99%;
+    height: 240px;
+    overflow: hidden;
+    background-color: rgb(9, 162, 244, 0.4);
+    border-radius: 15px;
+}
+
+#article-portada {
+    width: 500px;
+    height: 200px;
+    float: right;
+    background-color: rgb(255, 255, 255, 0.7);
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+#article-portada h1 {
+    margin-top: 50px;
+    text-align: center;
+    color: darkred;
+}
+
+#contenido-divs {
+    width: 99%;
+    margin-top: 100px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 15px;
+}
+
+#article-divs h1,
+h2,
+p {
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(107, 0, 0);
+}
+
+#videost {
+    height: 200px;
+    weight: 300px;
+    margin-left: 50px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 15px
+}
+
 #container {
     background-image: url('../Imágenes/Cajamarca.jpeg');
     background-position: center;
@@ -78,6 +128,15 @@ header h3 {
     border-radius: 50%;
 }
 
+h1,
+h2,
+h3,
+li,
+p,
+div {
+    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+}
+
 h1 {
     font-size: 200%;
 }
@@ -92,31 +151,42 @@ h3 {
 
 li,
 p {
-    font-size: 130%;
+    font-size: 110%;
 }
 
-div {
-    font-size: 100%;
-    margin-bottom: 4px;
-    margin-left: 6px;
+h1,
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
 }
 
 .row {
     padding: -15px;
 }
 
-.contenedor prueba {
-    padding: -15px;
-}
-
 .columna {
-    width: 30.33333%;
+    width: 29, 33333%;
     min-height: 1px;
     padding-right: 10px;
-    padding-left: 20px;
+    padding-left: 30px;
     position: relative;
     float: left;
     background-color: rgba(219, 240, 186, 0.7);
+    font-size: 100%;
+    margin-bottom: 4px;
+    margin-left: 6px;
+    border-radius: 15px;
 }
 
 .rowsitios {
@@ -131,6 +201,8 @@ div {
     position: relative;
     float: left;
     background-color: rgba(219, 240, 186, 0.7);
+    margin-bottom: 15px;
+    margin-left: 6px;
 }
 
 body espacio {

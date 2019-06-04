@@ -10,39 +10,37 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap.css">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/estilo.css">
     <link rel="shortcut icon" href="Imágenes/LOGO SISTEMAS.png" />
 </head>
 
-<body id="container">
+<body>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-    <header>
+    <header class="text-center">
         <h3>Cajamarca</h3>
-        <nav id="menu">
+        <nav>
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="Información.html">Información </a></li>
-                <li><a href="contacto.html">Contáctame</a></li>
-                <li><a href="sitiosturísticos.html">Sitios Turísticos</a></li>
+                <a class="btn btn-outline-warning" href="index.html">Inicio </a>
+                <a class="btn btn-outline-warning" href="Información.html">Información </a>
+                <a class="btn btn-outline-warning" href="contacto.html">Contáctame </a>
+                <a class="btn btn-outline-warning" href="sitiosturísticos.html">Sitios Turísticos </a>
             </ul>
         </nav>
     </header>
-    <espacio></espacio>
 
     <div>
-        <div id="contenido-divs">
-            <h1>SOBRE MÍ</h1>
-        </div>
-
-        <br>
+        <h1>SOBRE MÍ</h1>
     </div>
+    <br>
     <div class="row">
-        <div class="columna">
+        <div class="col">
             <h3>INFORMACIÓN GENERAL</h3>
             <br>
             <ul>
@@ -56,7 +54,7 @@
             </ul>
             <br>
         </div>
-        <div class="columna">
+        <div class="col">
             <h3>FORMACIÓN EDUCATIVA</h3>
             <br>
             <ul>
@@ -68,10 +66,10 @@
             </ul>
             <br>
         </div>
-        <div class="columna">
+        <div class="col">
             <H3>PASATIEMPOS</H3>
             <br>
-            <img class="imagen" height="150px" width="150px" src="Imágenes/Danza.jpg" alt="">
+            <img height="150px" width="150px" src="Imágenes/Danza.jpg" alt="">
             <video height="150px" width="150px" src="Video/Piano.mp4" autoplay="true" muted loop></video>
         </div>
     </div>
@@ -84,9 +82,8 @@
 
 <br>
 
-<div id="footer">
-    <footer align="center" bottom="0px">&copy;Eymie Vera</footer>
-</div>
+<footer align="center" bottom="0px">&copy;Eymie Vera</footer>
+
 
 
 </html>

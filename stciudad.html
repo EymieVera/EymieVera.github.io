@@ -9,7 +9,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Sitios Turísticos en la Ciudad</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
     <meta name="description" content="">
@@ -19,11 +19,11 @@
 </head>
 
 
-<body>
+<body id="container">
     <!--contiene todo lo que es el menu de navegacion-->
     <header class="text-center">
         <nav class="navbar navbar-expand-lg navbar-light bg-warning">
-            <a class="t" href="#">Cajamarca</a>
+            <a class="t" href="#">CAJAMARCA</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                               <span class="navbar-toggler-icon"></span>
                             </button>
@@ -54,20 +54,12 @@
             </div>
         </nav>
     </header>
-    <section class="row">
-        <article class="col-4">
-            <h1>LUGARES TURÍSTICOS</h1>
-            <br>
-            <nav align="center">
-                <a href="stciudad.html">IGLESIAS Y MUSEOS</a>
-                <br>
-                <a href="strural.html">ATRACTIVOS FUERA DE LA CIUDAD</a>
-            </nav>
-
-        </article>
-
-        <article class="col-6" id="Ciudad">
-
+    <section class="row justify-content-center">
+        <article class="col-md-6">
+            <div>
+                <h3>IGLESIAS Y MUSEOS</h3>
+                <P>Visítenos y conozca las hermosas iglesias de estilo clásico y bárroco, hechas a base de piedra volcánica, construidos durante la época colonial. Además de lugares que contienen el saber cajamarquino</P>
+            </div>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -76,13 +68,76 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="Imágenes/catedral.jpg" alt="First slide">
+                        <a href="https://es.wikipedia.org/wiki/Catedral_de_Cajamarca" target="_blank ">
+                            <img class="d-block w-100" src="Imágenes/catedral.jpg" alt="First slide">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>IGLESIA CATEDRAL</h5>
+                            <p>Construido en el siglo XVII - Época Colonial. Desde 1908 ocupa el rango catedral. Es la principal catedral barroco en la ciudad homónima. Y esta edificada a base de roca volcánica. En la actualidad es reconocido como Patrimonio
+                                Cultural,se ubica en la plaza de Armas de Cajamarca.</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="Imágenes/francisco.jpg" alt="Second slide">
+                        <a href="https://es.wikipedia.org/wiki/Iglesia_de_San_Francisco_(Cajamarca)" target="_blank ">
+                            <img class="d-block w-100" src="Imágenes/francisco.jpg" alt="Second slide">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>IGLESIA SAN FRANCISCO</h5>
+                            <p>Construida en 1579. El frontis de la iglesia cuenta con tres cuerpos. El primero tiene unas cuatro hornacinas que alberga las estatuas de San Pascual Bailón, San Juan Capristano, San Bernardino y San Luis Obispo, y en el centro
+                                se puede encontrar dos ángeles que sostienen la Tiara Papal
+                            </p>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="Imágenes/belen.jpg" alt="Third slide">
+                        <a href="https://es.wikipedia.org/wiki/Conjunto_monumental_de_Bel%C3%A9n" target="_blank ">
+                            <img class="d-block w-100" src="Imágenes/belen.jpg" alt="Third slide">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>IGLESIA BELÉN</h5>
+                            <p>Construida en el año de 1774. Esta construida a base de tres cuerpos que simbolizan las tres virtudes teologales: la fe, la esperanzay la caridad.la decoración interior predominan las incrustaciones en forma de rombo, así como
+                                el color policromado, y también los rostros de ángeles.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://commons.wikimedia.org/wiki/File:Iglesia_de_la_Concepci%C3%B3n_de_Cajamarca_des_de_la_cantonada_del_jir%C3%B3n_Amalia_Puga_amb_el_jir%C3%B3n_Antonio_Guillermo_Urrelo.jpg" target="_blank ">
+                            <img class="d-block w-100" src="Imágenes/concepcion.jpg" alt="Forth slide">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>IGLESIA LA CONCEPCIÓN: MONASTERIO</h5>
+                            <p>Construida en el año 1806, conocida como el convento de las monjas,Su fachada tiene una torre con campanario y en su interior se aprecia retablos y altares tallados en madera o moldeados en bronce.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://es.wikipedia.org/wiki/Iglesia_y_Convento_de_La_Recoleta" target="_blank ">
+                            <img class="d-block w-100" src="Imágenes/recoleta.jpg" alt="Fifth slide">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>IGLESIA SAN SEBASTIÁN: LA RECOLETA</h5>
+                            <p>Construida en el siglo XIII, a base de piedra volcanica, al estilo arquitectónico neoclásico. El frontis fue construido con la forma de un retablo plateresco neoclásico, además tiene en su interior una sola nave, así como tres
+                                sobrios altares
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://es.wikipedia.org/wiki/Cerro_Santa_Apolonia" target="_blank ">
+                            <img class="d-block w-100" src="Imágenes/mirador.jpg" alt="Sixth slide">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>MIRADOR DE SANTA APOLONIA</h5>
+                            <p>Mirador de Cajamarca. Se le conocía con el nombre Rumi Tiana o "Asiento de Piedra.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://es.wikipedia.org/wiki/Cuarto_del_Rescate" target="_blank ">
+                            <img class="d-block w-100" src="Imágenes/cuarto-de-rescate.jpg" alt="Seventh slide">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>CUARTO DEL RESCATE</h5>
+
+                            <p>Es una edificación incaica ubicada en la ciudad de Cajamarca, Perú. Sus dimensiones son 11,80 m de largo, 7,30 m de ancho y 3,1 m de alto.</p>
+                        </div>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -93,75 +148,18 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-            </div>
-            <div>
-                <h2>IGLESIAS Y MUSEOS</h2>
-                <P>Visítenos y conozca las hermosas iglesias de estilo clásico y bárroco, hechas a base de piedra volcánica, construidos durante la época colonial. Además de lugares que contienen el saber cajamarquino</P>
-            </div>
-            <div>
-                <div>
-                    <h3>IGLESIA CATEDRAL</h3>
-                    <a href="https://es.wikipedia.org/wiki/Catedral_de_Cajamarca" target="_blank "> <img class="imagen" height="250px" width="100%" src="Imágenes/catedral.jpg" alt=""></a>
-                    <p>Construido en el siglo XVII - Época Colonial. Desde 1908 ocupa el rango catedral. Es la principal catedral barroco en la ciudad homónima. Y esta edificada a base de roca volcánica. En la actualidad es reconocido como Patrimonio Cultural,se
-                        ubica en la plaza de Armas de Cajamarca.
-                    </p>
-                </div>
-
-                <div>
-                    <h3>IGLESIA SAN FRANCISCO</h3>
-                    <a href="https://es.wikipedia.org/wiki/Iglesia_de_San_Francisco_(Cajamarca)" target="_blank "><img class="imagen" height="250px" width="100%" src="Imágenes/francisco.jpg"></a>
-                    <p>Construida en 1579. El frontis de la iglesia cuenta con tres cuerpos. El primero tiene unas cuatro hornacinas que alberga las estatuas de San Pascual Bailón, San Juan Capristano, San Bernardino y San Luis Obispo, y en el centro se
-                        puede encontrar dos ángeles que sostienen la Tiara Papal
-                    </p>
-                </div>
-
-                <div>
-                    <h3>IGLESIA BELÉN</h3>
-                    <a href="https://es.wikipedia.org/wiki/Conjunto_monumental_de_Bel%C3%A9n" target="_blank "><img class="imagen" height="250px" width="100%" src="Imágenes/belen.jpg"></a>
-                    <p>Construida en el año de 1774. Esta construida a base de tres cuerpos que simbolizan las tres virtudes teologales: la fe, la esperanzay la caridad.la decoración interior predominan las incrustaciones en forma de rombo, así como el color
-                        policromado, y también los rostros de ángeles.
-                    </p>
-                </div>
-
-                <div>
-                    <h3>IGLESIA LA CONCEPCIÓN: MONASTERIO</h3>
-                    <a href="https://commons.wikimedia.org/wiki/File:Iglesia_de_la_Concepci%C3%B3n_de_Cajamarca_des_de_la_cantonada_del_jir%C3%B3n_Amalia_Puga_amb_el_jir%C3%B3n_Antonio_Guillermo_Urrelo.jpg" target="_blank "><img class="imagen" height="250px" width="100%" src="Imágenes/concepcion.jpg"></a>
-                    <p>Construida en el año 1806, conocida como el convento de las monjas,Su fachada tiene una torre con campanario y en su interior se aprecia retablos y altares tallados en madera o moldeados en bronce.
-                    </p>
-                </div>
-
-                <div>
-                    <h3>IGLESIA SAN SEBASTIÁN: LA RECOLETA</h3>
-                    <a href="https://es.wikipedia.org/wiki/Iglesia_y_Convento_de_La_Recoleta" target="_blank "><img class="imagen" height="250px" width="100%" src="Imágenes/recoleta.jpg"></a>
-                    <p>Construida en el siglo XIII, a base de piedra volcanica, al estilo arquitectónico neoclásico. El frontis fue construido con la forma de un retablo plateresco neoclásico, además tiene en su interior una sola nave, así como tres sobrios
-                        altares
-                    </p>
-                </div>
-
-                <div>
-                    <h3>MIRADOR DE SANTA APOLONIA</h3>
-                    <a href="https://es.wikipedia.org/wiki/Cerro_Santa_Apolonia" target="_blank "><img class="imagen" height="250px" width="100%" src="Imágenes/mirador.jpg"></a>
-                    <p>Mirador de Cajamarca. Se le conocía con el nombre Rumi Tiana o "Asiento de Piedra.</p>
-                </div>
-
-                <div>
-                    <h3>CUARTO DEL RESCATE</h3>
-                    <a href="https://es.wikipedia.org/wiki/Cuarto_del_Rescate" target="_blank "><img class="imagen" height="250px" width="100%" src="Imágenes/cuarto-de-rescate.jpg" alt=""></a>
-                    <p>Es una edificación incaica ubicada en la ciudad de Cajamarca, Perú. Sus dimensiones son 11,80 m de largo, 7,30 m de ancho y 3,1 m de alto.</p>
-                </div>
-            </div>
         </article>
-
-
     </section>
     <embed src="Canciones/Carnaval.mp3" autostart=true loop=true width="0" right="0"></embed>
     <script src="" async defer></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-</body>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-<footer align="center" position="relative" bottom="0px">&copy;Eymie Vera</footer>
+    <footer align="center" position="relative" bottom="0px">&copy;Eymie Vera</footer>
+</body>
 
 </html>

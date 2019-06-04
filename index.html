@@ -17,29 +17,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/estilo.css">
     <link rel="shortcut icon" href="Imágenes/LOGO SISTEMAS.png" />
+    <link rel="stylesheet" href="icomoon/style.css">
 </head>
 
-<body id="container">
+<body id="container" class="bg-ima">
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
-            <a class="t" href="#">CAJAMARCA</a>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background: rgb(140, 173, 189)">
+            <span class="navbar-brand mb-0 h1 text-white">Cajamarca</span>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-le">
+                    <li class="nav-item active ">
+                        <a class="btn btn-info" href="index.html">Inicio <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contáctame</a>
+                    <li class="nav-item ml-4">
+                        <a class="btn btn-info" href="contacto.html">Contáctame</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="sitiosturísticos.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <li class="nav-item dropdown ml-4">
+                        <a class="btn btn-info dropdown-toggle" href="sitiosturísticos.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Sitios Turísticos
                           </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -48,57 +49,72 @@
                         </div>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-                </form>
+
             </div>
         </nav>
     </header>
 
-    <nav class="row justify-content-center">
-        <article class="col-md-6">
-            <h1> Hola Soy Eymie Vera!! </h1>
-            <br>
-            <img width="300" height="450" src="Imágenes/Yo.jpg" />
-        </article>
-    </nav>
+    <embed class="embed-responsive-item" autostart=true loop=true display="none"></embed>
     <br>
-    <section class="row">
-        <article class="col-4 bg-danger">
 
-            <h3>INFORMACIÓN GENERAL</h3>
-            <br>
-            <ul>
-                <li>Fecha de Nacimiento: 05 de Agosto de 1999</li>
+    <section class="col-md-12">
+        <article class="row">
+            <article class="col-md-6 justify-content-center align-items-center text-center">
+                <h1 class="text-danger"> Hola Soy Eymie Vera!! </h1>
                 <br>
-                <li>Teléfono: +51 976 826923</li>
-                <br>
-                <li>Email: everar16_1@unc.edu.pe</li>
-                <br>
-                <li>Dirección: Av. Perú #1172</li>
-            </ul>
+                <img class="col-md-7 " src="Imágenes/Yo.jpg" />
+            </article>
 
-        </article>
+            <article class="col-md-6 justify-content-center align-items-center text-white">
+                <article class="col-md-12"></article>
+                <article class="col-md-10  bg-info">
 
-        <article class="col-4 bg-danger">
-            <h3>FORMACIÓN EDUCATIVA</h3>
-            <br>
-            <ul>
-                <li>Educación Inicial y Escuela: Sagrado Corazón de Jesús</li>
-                <br>
-                <li>Educación Secundaria: La Católica</li>
-                <br>
-                <li>Educación Superior: <a href=" http://www.unc.edu.pe/ " target="_blank "> Universidad Nacional De Cajamarca</a></li>
-            </ul>
-        </article>
-        <article class="col-4 bg-danger">
-            <H3>PASATIEMPOS</H3>
-            <img height="150px" width="150px" src="Imágenes/Danza.jpg" alt="">
-            <video height="150px" width="150px" src="Video/Piano.mp4" autoplay="true" muted loop></video>
+                    <h3>INFORMACIÓN GENERAL</h3>
+
+                    <ul>
+                        <span class="icon-gift"></span> Fecha de Nacimiento: 05 de Agosto de 1999
+                        <br>
+                        <span class="icon-phone"></span> Teléfono: +51 976 826923
+                        <br>
+                        <span class="icon-mail2"></span> Email: everar16_1@unc.edu.pe
+                        <br>
+                        <span class="icon-home"></span> Dirección: Av. Perú #1172
+                    </ul>
+
+                </article>
+
+                <article class="col-md-10 bg-info">
+                    <h3>FORMACIÓN EDUCATIVA</h3>
+
+                    <ul>
+                        <li>Educación Inicial y Escuela: Sagrado Corazón de Jesús</li>
+
+                        <li>Educación Secundaria: La Católica</li>
+
+                        <li>Educación Superior: <a href=" http://www.unc.edu.pe/ " target="_blank "> Universidad Nacional De Cajamarca</a></li>
+                    </ul>
+                </article>
+                <article class="col-md-10 text-center bg-info">
+                    <H3>PASATIEMPOS</H3>
+                    <article class="row justify-content-center">
+                        <article class="col-md-5">
+                            <img class="img-thumbnail" src="Imágenes/Danza.jpg">
+                        </article>
+                        <article class="col-md-5">
+
+                            <div class="embed-responsive embed-responsive-21by9">
+                                <iframe class="embed-responsive-item" src="Video/Piano.mp4" autoplay="true" muted loop></iframe>
+                            </div>
+
+                        </article>
+
+
+                    </article>
+
+                </article>
+            </article>
         </article>
     </section>
-
 
     <embed src="Canciones/Modern Talking - Sexy sexy lover HD  Lyrics.mp3" autostart=true loop=true width="0" right="0"></embed>
 
@@ -109,8 +125,10 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <footer align="center" bottom="0px">&copy;Eymie Vera</footer>
+
 </body>
 
-<footer align="center" bottom="0px">&copy;Eymie Vera</footer>
 
 </html>
